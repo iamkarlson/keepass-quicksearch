@@ -1,0 +1,57 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="QuickSearch.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SearchInTitle" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="SearchInUrl" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="SearchCaseSensitive" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="BackColorOnError" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">228, 160, 143</Value>
+    </Setting>
+    <Setting Name="FocusOnOpen" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="SearchInPassword" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="SearchInUserName" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="SearchInNotes" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="SearchInGroupName" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="SearchExcludeExpired" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="SearchInOther" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ShowQuickFind" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="BackColorSearching" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">204, 201, 145</Value>
+    </Setting>
+    <Setting Name="BackColorSuccess" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">216, 233, 214</Value>
+    </Setting>
+    <Setting Name="BackColorNormalUnFocused" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">White</Value>
+    </Setting>
+    <Setting Name="BackColorNormalFocused" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">255, 255, 206</Value>
+    </Setting>
+    <Setting Name="ControlWidth" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">200</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,5 @@
+﻿
+
+v2.13 b0.0.0.2
+fixed: QuickSearch.config will now be saved in application directory if PreferUserConfiguration==false.
+added: different mouse cursor for ColorSelectButton
