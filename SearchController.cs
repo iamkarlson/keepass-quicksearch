@@ -9,7 +9,7 @@ using KeePass.App.Configuration;
 using KeePassLib;
 using KeePassLib.Utility;
 using KeePass.Resources;
-
+using KeePass.UI;
 
 
 namespace QuickSearch
@@ -259,7 +259,7 @@ namespace QuickSearch
 
 
             ListViewItem lvi = new ListViewItem();
-            lvi.Tag = pe;
+            lvi.Tag = new PwListItem(pe);
 
             //if (pe.Expires && (pe.ExpiryTime <= m_dtCachedNow))
             //{
