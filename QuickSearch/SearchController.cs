@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics;
-using System.Text;
 using System.Windows.Forms;
 using KeePass;
 using KeePass.App.Configuration;

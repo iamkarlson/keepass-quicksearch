@@ -1,10 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-
-using System.Text;
 using KeePass.Plugins;
 using KeePassLib;
-using KeePass.UI;
 using System.Windows.Forms;
 using System.Diagnostics;
 using QuickSearch.Properties;

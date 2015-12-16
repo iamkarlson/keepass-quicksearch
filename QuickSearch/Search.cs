@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 using KeePassLib;
 using KeePassLib.Security;
 using QuickSearch.Properties;

@@ -1,17 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Windows.Forms;
-using System.Diagnostics;
-
-
 using KeePass.Plugins;
 using KeePass.Forms;
 using KeePass.UI;
-using KeePass.Resources;
-
-using KeePassLib;
-using KeePassLib.Security;
 using QuickSearch.Properties;
 
 using System.Drawing;
@@ -28,6 +19,9 @@ namespace QuickSearch
         public override bool Initialize(IPluginHost host)
         {
             QuickSearchExt.host = host;
+
+			Settings.Default.Load(host);
+
             //if (Settings.Default.RemoveQuickFind)
             //{
                 //removeBuiltinQuickFind(host);
@@ -195,7 +189,7 @@ namespace QuickSearch
 
         public override void Terminate()
         {
-            Settings.Default.Save();
+            Settings.Default.Save(host);
             base.Terminate();
         }
     }

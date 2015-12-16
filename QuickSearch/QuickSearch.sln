@@ -1,7 +1,17 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickSearch", "QuickSearch.csproj", "{67A571CA-77D2-4820-A87D-C82366D08404}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeePass", "..\..\KeePass-Source\KeePass\KeePass.csproj", "{10938016-DEE2-4A25-9A5A-8FD3444379CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{28396027-E3B4-4744-A0A7-B488A9FAA502}"
+	ProjectSection(SolutionItems) = preProject
+		..\Releases\PackageRelease.bat = ..\Releases\PackageRelease.bat
+		..\Readme.txt = ..\Readme.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +23,10 @@ Global
 		{67A571CA-77D2-4820-A87D-C82366D08404}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67A571CA-77D2-4820-A87D-C82366D08404}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67A571CA-77D2-4820-A87D-C82366D08404}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10938016-DEE2-4A25-9A5A-8FD3444379CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10938016-DEE2-4A25-9A5A-8FD3444379CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10938016-DEE2-4A25-9A5A-8FD3444379CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10938016-DEE2-4A25-9A5A-8FD3444379CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
