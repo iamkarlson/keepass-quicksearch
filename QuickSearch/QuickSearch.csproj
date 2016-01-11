@@ -125,9 +125,6 @@
   <ItemGroup>
     <None Include="Resources\Icon1.ico" />
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="ChangeLog.txt" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>IF $(ConfigurationName) == Release "$(ProjectDir)..\CreatePlgX.bat"</PostBuildEvent>
