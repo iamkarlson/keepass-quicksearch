@@ -31,15 +31,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <Choose>
-    <When Condition="'$(Configuration)'=='Debug'">
-      <ItemGroup>
-        <ProjectReference Include="..\..\KeePass-Source\KeePass\KeePass.csproj">
-          <Project>{10938016-DEE2-4A25-9A5A-8FD3444379CA}</Project>
-          <Name>KeePass</Name>
-          <Private>False</Private>
-        </ProjectReference>
-      </ItemGroup>
-    </When>
+    <When Condition="'$(Configuration)'=='Debug'" />
     <Otherwise>
       <ItemGroup>
         <Reference Include="KeePass">
@@ -124,6 +116,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Icon1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\KeePass-Source\KeePass\KeePass.csproj">
+      <Project>{10938016-dee2-4a25-9a5a-8fd3444379ca}</Project>
+      <Name>KeePass</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
