@@ -105,6 +105,14 @@ namespace QuickSearch
             toolStrip.Items.Add(myToolStripControlHost);
             //host.MainWindow.FileOpened += new EventHandler<FileOpenedEventArgs>(MainWindow_FileOpened);
 
+            var mainForm = host.MainWindow;
+            mainForm.KeyPreview = true;
+            mainForm.KeyDown += (sender, args) =>
+            {
+                if (args.KeyData == (Keys.Shift|Keys.Alt|Keys.F)) {
+                    myControl.comboBoxSearch.Focus();
+                }
+            };
 
             //host.MainWindow.Shown += delegate(object o, EventArgs e) { myControl.ParentForm.ActiveControl = myControl.comboBoxSearch; };
             //myControl.comboBox.TextChanged += new EventHandler(comboBox1_TextChanged);
