@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("QuickSearch")]
 [assembly: AssemblyDescription("Toolbar item for searching the database")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Gordon Venem")]
+[assembly: AssemblyCompany("Gordon Venem, Georgy Grigoryev")]
 [assembly: AssemblyProduct("KeePass Plugin")]
 [assembly: AssemblyCopyright("Copyright ©  2011")]
 [assembly: AssemblyTrademark("")]
@@ -32,4 +32,4 @@ using System.Runtime.InteropServices;
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("2.26.0.0")]
-[assembly: AssemblyFileVersion("0.0.0.1")]
+	
