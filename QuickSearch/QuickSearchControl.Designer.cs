@@ -324,7 +324,7 @@
             this.Controls.Add(this.ButtonDropdownSettings);
             this.Controls.Add(this.comboBoxSearch);
             this.Controls.Add(this.tableLayoutPanelMain);
-            this.MinimumSize = new System.Drawing.Size(19, 0);
+            this.MinimumSize = new System.Drawing.Size(180, 0);
             this.Name = "QuickSearchControl";
             this.Size = new System.Drawing.Size(432, 249);
             this.tableLayoutPanelMain.ResumeLayout(false);
