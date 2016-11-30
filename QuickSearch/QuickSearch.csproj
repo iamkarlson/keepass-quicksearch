@@ -43,7 +43,7 @@
   </Choose>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="System.configuration" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
   </ItemGroup>
@@ -116,12 +116,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Icon1.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\KeePass-Source\KeePass\KeePass.csproj">
-      <Project>{10938016-dee2-4a25-9a5a-8fd3444379ca}</Project>
-      <Name>KeePass</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
