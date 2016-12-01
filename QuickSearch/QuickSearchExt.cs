@@ -15,7 +15,12 @@ namespace QuickSearch
         public static Search search;
 
         QuickSearchControl qsControl;
-
+        
+        public override string UpdateUrl
+        {
+            get { return @"https://raw.githubusercontent.com/iamkarlson/keepass-quicksearch/master/quicksearchVERSION.txt"; }
+        }
+        
         public override bool Initialize(IPluginHost host)
         {
             QuickSearchExt.host = host;

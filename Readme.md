@@ -20,6 +20,9 @@ Place __QuickSearch.plgx__ in your KeePass Plugins folder.
 Delete __QuickSearch.plgx__ from your KeePass Plugins folder.
 
 ##Changelog
+v2.27 - v2.28
+Added automatic check for updates
+
 v2.26
 CTRL+SHIFT+F - activate search textbox
 Knownig issue - doesn't work at linux
