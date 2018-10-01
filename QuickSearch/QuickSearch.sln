@@ -1,16 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickSearch", "QuickSearch.csproj", "{67A571CA-77D2-4820-A87D-C82366D08404}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeePass", "..\..\KeePass-Source\KeePass\KeePass.csproj", "{10938016-DEE2-4A25-9A5A-8FD3444379CA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeePass", "..\..\KeePass2.x\KeePass\KeePass.csproj", "{10938016-DEE2-4A25-9A5A-8FD3444379CA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{28396027-E3B4-4744-A0A7-B488A9FAA502}"
 	ProjectSection(SolutionItems) = preProject
-		..\Releases\PackageRelease.bat = ..\Releases\PackageRelease.bat
-		..\Readme.txt = ..\Readme.txt
+		..\Readme.md = ..\Readme.md
 	EndProjectSection
 EndProject
 Global
@@ -30,5 +29,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8B742FA-F057-475F-8029-4DD00C65B818}
 	EndGlobalSection
 EndGlobal

@@ -1,25 +1,30 @@
-#QuickSearch
+# QuickSearch
 
 original version: [profon.wordpress.com](http://profon.wordpress.com/quicksearch/)
 
 QuickSearch is a search plugin for KeePass Password Safe v2 [KeePass.info](http://www.KeePass.info) . It can be used
 as a replacement for the built-in QuickFind toolbar control.
 
-##Development
+## Development
 
 To start developing the pluging, you should place KeePass sources at directory at one level with project. For instance, you have following structure __p:\projects\QuickSearch__, KeePass must be placed in __projects__ folder.
 
+For KeePass source you can use this github mirror [dlech/KeePass2.x](https://github.com/dlech/KeePass2.x)
+Before starting debugging you have to enable dll signing for KeePass, otherwise you will get some errors.
 
-##Installation
+## Installation
 
 Place __QuickSearch.plgx__ in your KeePass Plugins folder.
 
 
-##Uninstallation
+## Uninstallation
 
 Delete __QuickSearch.plgx__ from your KeePass Plugins folder.
 
-##Changelog
+## Changelog
+v2.29
+Fix compatibility issue
+
 v2.27 - v2.28
 Added automatic check for updates
 
