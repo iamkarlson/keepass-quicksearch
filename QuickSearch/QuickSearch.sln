@@ -9,6 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeePass", "..\..\KeePass2.x
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{28396027-E3B4-4744-A0A7-B488A9FAA502}"
 	ProjectSection(SolutionItems) = preProject
+		..\quicksearchVERSION.txt = ..\quicksearchVERSION.txt
 		..\Readme.md = ..\Readme.md
 	EndProjectSection
 EndProject
